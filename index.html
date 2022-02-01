@@ -5,78 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document changed</title>
-    <link rel="stylesheet" href="syles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    
     <header>
-        <h1>Welcome to&nbsp;my&nbsp;first&nbsp;website!</h1>
+        <h1>Welcome to my first website!</h1>
         <!--<a href="https://www.google.com">Find in Google</a>-->
         <a href="contact.html">Contact me</a>
-        <br>
     </header>
-
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-    </article>
     
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is the content of my second blog &lt;something&gt; post</p>
-        <br> <!-- this tag is used for new line -->
-    </article>
+    <div id="main-content">
+        
+            <section id="articles">
+                
+                <article>
+                    <h3>This is my first blog post</h3>
+                    <p>This is the content of my first blog post</p>
+                </article>
+                
+                <article>
+                    <h3>This is my second blog post</h3>
+                    <p>This is the content of my second blog &lt;something&gt; post</p>
+                </article>
+            
+                <article>
+                    <h3>This is my third blog post</h3>
+                    <p>This is the <mark>content</mark> of my third blog post<br>Continue the content after <i>breaking line</i>. <sup class="sup_element">*</sup></p>        
+                    <small><sup class="sup_element">*</sup>Another sentence.</small>
+                </article>
 
-    <article>
-        <h3>This is my third blog post</h3>
-        <p>This is the <mark>content</mark> of my third blog post<br>Continue the content after <i>breaking line</i>. <sup class="sup_element" style="color: red">*</sup></p>        
-        <small><sup class="sup_element">*</sup>Another sentence.</small>
-    </article>
+            </section>
 
-    <br> <!-- this tag is used for new line -->
-    <br>
-    <br>
-    <br>
+        <div id="skills"> <!-- div is lbock element -->
+            <b style="font-size: 34px; font-weight: 900; color: #20D0FF">My skills</b>
 
-<!--
-    <br>
-    <br>
-    <br>
-    <br>
--->
-
-    <div> <!-- div is lbock element -->
-        My skills
-        <!--<ul>
-            <li>I know HTML :)</li>
-            <li>I dont know CSS yet :(</li>
-        </ul>-->
-
-        <table border="1">
-            <tr>
-                <th>Technology</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>0 :(</td>
-            </tr>
-        </table>
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>good :)</td>
+                </tr>
+            </table>
+        </div>
     </div>
 
-    <br>
-    <br>
-    <br>
-
     <footer>
+        <!-- <div style="position: relative; position:absolute; position:fixed; right:20px; bottom: 0;"> -->
         <div>
-            Footer area. &copy; <!-- html entities--> <strong>Me</strong> & <b>My Tutor</b>
+            Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b>       
         </div>
-    </footer>
+     </footer>
     <!-- Content not wrapper in any tag (barely used in reality) -->
     <script src="scripts.js"></script>
 </body>

@@ -1,0 +1,42 @@
+
+td { /* selector */
+
+    text-align: center; /* property: */
+
+}
+
+/* body {
+    color: green;
+} */
+
+h3 {
+    color: #FC7629;
+}
+
+p {
+    color: #2A3655;
+}
+
+/* h3, p {
+    color: #2A3655;
+} */
+
+.sup_element { 
+     color: red;
+}
+
+/* footer p {
+    color: red;
+} */
+
+/* footer > p {
+    color: red;
+} */
+
+/* sup.sup_element {
+    color: red;
+} */
+
+/* sup sup_element {
+    color: red;
+} */
